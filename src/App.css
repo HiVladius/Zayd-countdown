@@ -1,3 +1,22 @@
+.App {
+  background-image: url('./imagen/eclipse.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: alpha(opacity=50);
+  position: relative;
+}
+
+.background-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  right: 100px;
+  bottom: 100px;
+}
+
+/* ...resto del CSS... */
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -15,7 +15,7 @@ function App() {
       <h3 className='ligthfall'>Destiny 2 The lightfall</h3>
       
       <div>
-        <video src={myVideo} width="640" height="360" autoPlay></video>
+        <video className='video' src={myVideo} width="640" height="360" autoPlay></video>
       </div>
 
 
